@@ -1,0 +1,25 @@
+.page-numbers {
+    background-image: url('/src/images/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.MuiTableSortLabel-root {
+    font-weight: 700 !important;
+}
+
+.MuiIconButton-colorInherit {
+    color: var(--primary) !important;
+}
+
+button[title=Delete].MuiIconButton-colorInherit, button[title=Cancel].MuiIconButton-colorInherit  {
+    color: red !important;
+}
+
+button[title=Save].MuiIconButton-colorInherit {
+    color: green !important;
+}
+
+.MuiPaper-elevation2 {
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.12) !important;
+}
